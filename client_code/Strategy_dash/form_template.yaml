@@ -1,0 +1,101 @@
+components:
+- components: []
+  layout_properties: {grid_position: 'XLMAQF,BTBOGR'}
+  name: content_panel
+  properties: {col_widths: '{}', role: null}
+  type: ColumnPanel
+- components:
+  - layout_properties: {full_width_row: true, grid_position: 'YHFIJN,PKFZNX'}
+    name: label_6
+    properties: {role: title, text: PARAMETERS}
+    type: Label
+  - layout_properties: {full_width_row: true, grid_position: 'YHFIJN,NRNGDA'}
+    name: label_7
+    properties: {role: title, text: SUMMARY}
+    type: Label
+  - components:
+    - components:
+      - layout_properties: {grid_position: 'ENYVAR,KXYFZF'}
+        name: label_1
+        properties: {align: left, text: SIGNAL}
+        type: Label
+      - layout_properties: {grid_position: 'ENYVAR,LVRNDI'}
+        name: drop_down_1
+        properties: {}
+        type: DropDown
+      - layout_properties: {grid_position: 'PZHUNZ,EXBRXU'}
+        name: label_2_copy
+        properties: {align: left, text: SYMBOL}
+        type: Label
+      - layout_properties: {grid_position: 'PZHUNZ,QIOQYN'}
+        name: drop_down_2
+        properties: {}
+        type: DropDown
+      - layout_properties: {grid_position: 'MWKAGD,UAJDIU'}
+        name: label_3_copy
+        properties: {align: left, text: FROM}
+        type: Label
+      - layout_properties: {grid_position: 'MWKAGD,OZQGDE'}
+        name: date_picker_1
+        properties: {}
+        type: DatePicker
+      - layout_properties: {grid_position: 'HIPGPD,LGFHPE'}
+        name: label_4_copy
+        properties: {align: left, text: TO}
+        type: Label
+      - layout_properties: {grid_position: 'HIPGPD,FSBNNJ'}
+        name: date_picker_2
+        properties: {}
+        type: DatePicker
+      - layout_properties: {grid_position: 'GOEWWB,BDWOFY'}
+        name: spacer_1
+        properties: {height: 32}
+        type: Spacer
+      - event_bindings: {click: button_1_click}
+        layout_properties: {grid_position: 'UPOUQM,KLGSVF'}
+        name: button_1
+        properties: {align: center, bold: false, role: tonal-button, text: RUN}
+        type: Button
+      layout_properties: {grid_position: 'PLFEWX,ZZVAOQ'}
+      name: outlined_card_2
+      properties: {background: '', role: outlined-card}
+      type: ColumnPanel
+    - components:
+      - layout_properties: {grid_position: 'WKWPOU,HPSIJA'}
+        name: label_2
+        properties: {text: Exp/Trade}
+        type: Label
+      - layout_properties: {grid_position: 'WKWPOU,DSZIVP'}
+        name: label_3
+        properties: {}
+        type: Label
+      - layout_properties: {grid_position: 'IOXQLW,MYKFWP'}
+        name: label_4
+        properties: {text: '# Trades'}
+        type: Label
+      - layout_properties: {grid_position: 'IOXQLW,EIMNUE'}
+        name: label_5
+        properties: {}
+        type: Label
+      layout_properties: {grid_position: 'PLFEWX,QPURTP'}
+      name: outlined_card_3
+      properties: {role: outlined-card, visible: true}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'JRBHZO,UNSOQW'}
+      name: label_8
+      properties: {role: title, text: WEEKLY  P&L}
+      type: Label
+    - layout_properties: {grid_position: 'KVCART,SHPKVT'}
+      name: plot_1
+      properties: {}
+      type: Plot
+    layout_properties: {grid_position: 'HTILRH,KHSXUB'}
+    name: content_panel_copy
+    properties: {col_widths: '{}', role: null}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'VUCQEV,ONVYGK'}
+  name: outlined_card_1
+  properties: {role: outlined-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

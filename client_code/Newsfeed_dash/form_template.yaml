@@ -1,0 +1,27 @@
+components:
+- components:
+  - components:
+    - layout_properties: {}
+      name: repeating_panel_1
+      properties: {item_template: Newsfeed_dash.RowTemplate12, role: null}
+      type: RepeatingPanel
+    layout_properties: {full_width_row: false, grid_position: 'FVCAQK,MHIEHM', row_background: ''}
+    name: data_grid_1
+    properties:
+      auto_header: true
+      columns:
+      - {data_key: time, expand: false, id: JKSDUP, title: 'Time ', width: 158.33331298828125}
+      - {data_key: headline, expand: false, id: VJQQOR, title: Headline, width: 612.666748046875}
+      - {data_key: importance, expand: false, id: OJLQEN, title: Importance, width: 189.166748046875}
+      role: tonal-data-grid
+      show_page_controls: true
+      spacing_above: small
+      spacing_below: small
+      wrap_on: mobile
+    type: DataGrid
+  layout_properties: {full_width_row: true, grid_position: 'XRPSJU,HDFCJI'}
+  name: outlined_card_1
+  properties: {role: outlined-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

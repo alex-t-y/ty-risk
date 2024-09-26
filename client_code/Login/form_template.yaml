@@ -1,0 +1,38 @@
+components:
+- layout_properties: {grid_position: 'QTWUYY,DYXAVR'}
+  name: spacer_1
+  properties: {height: 367.91668701171875}
+  type: Spacer
+- components:
+  - layout_properties: {grid_position: 'KHQUVC,WCJNFD'}
+    name: image_1
+    properties: {}
+    type: Image
+  - layout_properties: {grid_position: 'AIUCRP,KJTXVP'}
+    name: spacer_3
+    properties: {height: 32}
+    type: Spacer
+  - data_bindings: []
+    layout_properties: {grid_position: 'KNJIOK,WDMVYF', row_background: ''}
+    name: label_1
+    properties: {align: center, bold: false, font_size: 60, foreground: 'theme:On Primary', icon: '', italic: false, role: title, text: ENTER THE PLATFORM, underline: false}
+    type: Label
+  - layout_properties: {grid_position: 'IIECCO,XWHGVR'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - event_bindings: {click: button_1_click}
+    layout_properties: {grid_position: 'QPYEDV,PGOFWT'}
+    name: button_1
+    properties: {align: center, background: 'theme:On Primary', bold: false, font_size: 30, foreground: 'theme:On Primary Container', icon: 'fa:sign-in', role: tonal-button, text: 'Login ', underline: false}
+    type: Button
+  - layout_properties: {grid_position: 'MNTBRV,TWMOEU'}
+    name: spacer_4
+    properties: {height: 32}
+    type: Spacer
+  layout_properties: {full_width_row: false, grid_position: 'RRUPXH,RYZXQX'}
+  name: outlined_card_1
+  properties: {background: '', role: outlined-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

@@ -1,0 +1,65 @@
+components:
+- components:
+  - layout_properties: {full_width_row: true, grid_position: 'ZFMLGZ,UBMOBR'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {full_width_row: true, grid_position: 'ZFMLGZ,KERWPZ'}
+    name: label_1
+    properties: {align: right, font_size: 20, text: Login}
+    type: Label
+  - event_bindings: {change: drop_down_1_change}
+    layout_properties: {full_width_row: true, grid_position: 'ZFMLGZ,GMEPSP'}
+    name: drop_down_1
+    properties: {}
+    type: DropDown
+  - layout_properties: {full_width_row: true, grid_position: 'GSVOMR,DCYOGN'}
+    name: label_2
+    properties: {bold: false, role: title, text: EQUITY CURVE}
+    type: Label
+  - layout_properties: {full_width_row: true, grid_position: 'FMPHCD,WCRMMJ'}
+    name: plot_1
+    properties: {}
+    type: Plot
+  - layout_properties: {full_width_row: true, grid_position: 'CVPSLK,QEOYKC ILPNNB,DQNJLV'}
+    name: label_3
+    properties: {role: title, text: TRADES}
+    type: Label
+  - components:
+    - name: repeating_panel_2
+      properties: {item_template: Clients_dash.RowTemplate14}
+      type: RepeatingPanel
+    layout_properties: {full_width_row: true, grid_position: 'CVPSLK,QEOYKC WQCFBX,LGGKDF'}
+    name: data_grid_2
+    properties:
+      columns:
+      - {data_key: Time_in, id: JKSDUP, title: Open Time}
+      - {data_key: Time_out, id: VJQQOR, title: Close Time}
+      - {data_key: Symbol_in, id: OJLQEN, title: Market}
+      - {data_key: Volume_in, id: PDDZII, title: 'Volume '}
+      - {data_key: Profit_out, id: VFQERO, title: PL}
+      - {data_key: Action_in, id: WXSCSF, title: Direction}
+      role: tonal-data-grid
+    type: DataGrid
+  - layout_properties: {full_width_row: true, grid_position: 'CVPSLK,QKHTWP OZXWHT,LQJYBQ'}
+    name: label_4
+    properties: {role: title, text: USER INFO}
+    type: Label
+  - components:
+    - name: repeating_panel_1
+      properties: {item_template: Clients_dash.RowTemplate13}
+      type: RepeatingPanel
+    layout_properties: {full_width_row: true, grid_position: 'CVPSLK,QKHTWP QUGWEX,BYABCH'}
+    name: data_grid_1
+    properties:
+      columns:
+      - {data_key: field, id: JKSDUP, title: Field}
+      - {data_key: value, id: VJQQOR, title: Value}
+      role: tonal-data-grid
+    type: DataGrid
+  layout_properties: {full_width_row: true, grid_position: 'FFFEUZ,LJTHZM'}
+  name: outlined_card_1
+  properties: {col_widths: '{"QEOYKC":40,"QKHTWP":20}', role: outlined-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

@@ -1,0 +1,17 @@
+allow_embedding: false
+correct_dependency_ids: {dep_5n905khm0tzv: C6ZZPAPN4YYF5NVJ}
+dependencies:
+- dep_id: dep_5n905khm0tzv
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
+  version: {dev: false}
+name: Clone of TY_RISK
+package_name: TY_RISK
+renamed: true
+runtime_options: {client_version: '3', server_spec: null, server_version: python3-sandbox, version: 2}
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: {module: HOME, type: form}
+startup_form: null
+uplink_visible: true

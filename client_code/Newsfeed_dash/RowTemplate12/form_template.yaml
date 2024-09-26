@@ -1,0 +1,5 @@
+components: []
+container:
+  properties: {align: left, auto_display_data: true, bold: false, font: '', font_size: 20, foreground: ''}
+  type: DataRowPanel
+is_package: true
